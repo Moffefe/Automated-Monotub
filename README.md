@@ -2,7 +2,7 @@
 
 Automated Monotub controls the climate inside a mushroom fruiting chamber. An ESP32-S3 Zero reads the sensors and runs a fan, humidifier, light and heat mat. From a phone or laptop on local Wi-Fi, you can edit the growing cycle and compare sensor readings with equipment activity.
 
-[Interface gallery](docs/interface.md) · [Firmware walkthrough](docs/firmware.md) · [Arduino sketch](Test_MainController/Test_MainController/Test_MainController.ino)
+[Interface gallery](docs/interface.md) · [Hardware photos](docs/hardware.md) · [Firmware walkthrough](docs/firmware.md) · [Arduino sketch](Test_MainController/Test_MainController/Test_MainController.ino)
 
 [![CO₂ chart from the Sensor screen, with a dip during each scheduled fan run](media/co2-detail.png)](media/sensor.png)
 
