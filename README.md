@@ -6,7 +6,7 @@ Automated Monotub controls the climate inside a mushroom fruiting chamber. An ES
 
 [![CO₂ chart from the Sensor screen, with a dip during each scheduled fan run](media/co2-detail.png)](media/sensor.png)
 
-*Simulated data from the Sensor screen. Select the chart to see temperature, relative humidity and CO₂ across the full day.*
+*Select the CO₂ chart to open the Sensor screen with temperature and relative humidity on the same 24-hour time scale.*
 
 ## Growing cycle
 
@@ -23,7 +23,7 @@ In **Incubation** mode, the fan and light stay off and the heat mat uses a fixed
 
 [![Control screen showing the lighting window and four scheduled time points for day 2](media/control.png)](docs/interface.md#control)
 
-*Day 2 of the simulated cycle. The humidity target changes from 89% to 90% at 14:00, while the fan keeps its ten-minute run and fifty-minute pause.*
+*On day 2, the humidity target changes from 89% to 90% at 14:00, while the fan keeps its ten-minute run and fifty-minute pause.*
 
 ## Using the web panel
 
@@ -50,7 +50,7 @@ flowchart TD
 
 ## One ventilation cycle
 
-At 14:00 in the simulated example, the schedule starts a ten-minute fan run. The SCD4x records the drop in CO₂ across the next two readings.
+The fan log shows a ten-minute run starting at 14:00. Over the same interval, the CO₂ trace falls from 1,230 ppm to 808 ppm.
 
 | Local time | Fan | CO₂ | Relative humidity |
 | --- | --- | ---: | ---: |
@@ -58,4 +58,4 @@ At 14:00 in the simulated example, the schedule starts a ten-minute fan run. The
 | 14:05 | Running | 962 ppm | 88.26% |
 | 14:10 | Switches off | 808 ppm | 86.63% |
 
-[Fan log for this interval](docs/interface.md#log) · [Full example dataset](docs/example-day.json)
+[Fan log for this interval](docs/interface.md#log) · [Full cycle data](docs/chamber-cycle.json)
